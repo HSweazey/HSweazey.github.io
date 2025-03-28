@@ -4,8 +4,8 @@ title: DATA303 Projects
 
 # DATA303 Projects
 
-Welcome to my DATA303 project page! Here are my projects:
+Here are my projects for DATA303:
 
-- [Flask](Flask.md)
-- [Tableau](Tableau.md)
-- [PowerBI](PowerBI.md)
+- [Flask Project](Flask.md)
+- [PowerBI Project](PowerBI.md)
+- [Tableau Project](Tableau.md)

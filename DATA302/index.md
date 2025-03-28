@@ -2,9 +2,9 @@
 title: DATA302 Projects
 ---
 
-# DATA303 Projects
+# DATA302 Projects
 
-Welcome to my DATA303 project page! Here are my projects:
+Welcome to my DATA302 projects page! Here are my projects:
 
+- [SQL Final Project](SQLFinalProj.md)
 - [SQL Project 1](SQLProj1.md)
-- [SQL Final](SQLFinalProj.md)
