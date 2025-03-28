@@ -1,0 +1,50 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* General Styling */
+body {
+    background-color: #E3F2FD; /* Light blue background */
+    color: #1E3A5F; /* Deep navy blue text */
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+.site-title {
+    color: #0D47A1; /* Dark blue */
+    font-weight: 700; /* Bold */
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Page Container */
+.wrapper {
+    max-width: 900px; /* Keeps content centered and spacious */
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Links */
+a {
+    color: #1976D2; /* Medium blue */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0D47A1; /* Darker blue */
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #5C6BC0; /* Muted blue */
+}
