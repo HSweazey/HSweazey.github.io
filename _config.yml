@@ -2,3 +2,17 @@ theme: jekyll-theme-minimal
 title: Hannah's Portfolio Homepage
 description: A place to view my visualizations and projects!
 include: ["custom.css"]  # Ensures GitHub Pages includes the CSS file
+
+# Navigation menu
+navigation:
+  - title: Home
+    url: /
+  - title: DATA303 Projects
+    url: /DATA303
+  - title: DATA302 Projects
+    url: /DATA302
+  - title: About Me
+    url: /about
+  - title: Contact
+    url: /contact
+

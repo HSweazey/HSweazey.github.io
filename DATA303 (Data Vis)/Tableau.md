@@ -1,3 +1,3 @@
 layout: page
 title: "Tableau Visualizations"
-permalink: /DATA303(Data Vis)/Tableau/
+permalink: /DATA303/Tableau/

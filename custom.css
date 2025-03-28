@@ -48,3 +48,24 @@ footer {
     font-size: 0.9rem;
     color: #5C6BC0; /* Muted blue */
 }
+
+
+/* Style project lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+ul li a {
+    color: #0D47A1; /* Dark blue */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
