@@ -1,4 +1,4 @@
-theme: jekyll-theme-architect
+theme: jekyll-theme-hyde
 title: Hannah's Portfolio Homepage
 description: A place to view my visualizations and projects!
 include: ["custom.css"]
