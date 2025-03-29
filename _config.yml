@@ -3,15 +3,10 @@ title: Hannah's Portfolio Homepage
 description: A place to view my visualizations and projects!
 include: ["custom.css"]
 
-# Navigation menu
-navigation:
-  - title: Home
-    url: /
-  - title: DATA302 Projects
-    url: /DATA302
-  - title: DATA303 Projects
-    url: /DATA303
-  - title: About Me
-    url: /about
-  - title: Contact
-    url: /contact
+# Navigation Menu
+header_pages:
+  - index.md
+  - DATA302/index.md
+  - DATA303/index.md
+  - about.md
+  - contact.md
