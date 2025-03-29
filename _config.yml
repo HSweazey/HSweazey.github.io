@@ -1,4 +1,4 @@
-theme: jekyll-theme-minima
+theme: jekyll-theme-minimal
 title: Hannah's Portfolio Homepage
 description: A place to view my visualizations and projects!
 include: ["custom.css"]
