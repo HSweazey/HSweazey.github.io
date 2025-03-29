@@ -1,4 +1,4 @@
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-minima
 title: Hannah's Portfolio Homepage
 description: A place to view my visualizations and projects!
 include: ["custom.css"]
