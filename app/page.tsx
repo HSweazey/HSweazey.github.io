@@ -1,65 +1,92 @@
-import Image from "next/image";
+import ProjectCard from '../components/ProjectCard';
 
 export default function Home() {
+  // This is where you curate your projects. 
+  // You can easily add/remove items from this list later.
+  const projects = [
+    {
+      title: "Android Malware Classification",
+      description: "A machine learning pipeline utilizing MobSF static analysis reports to classify Android APKs as malicious or benign. Involves feature extraction from JSON reports and vectorization.",
+      tags: ["Python", "Machine Learning", "Cyber Security", "MobSF"],
+      link: "https://github.com/HSweazey/CCI-Lab-Group-2-GitHub" // Update this later
+    },
+    {
+      title: "Atmospheric Spotify Playlist Generator",
+      description: "An automation tool that generates music playlists tailored to specific books. Analyzes book sentiment and vibe to curate tracks that match the reading atmosphere.",
+      tags: ["Python", "Spotify API", "NLP", "Automation"],
+      link: "https://github.com/HSweazey/DATA-440-Book-Playlist-Generator"
+    },
+    {
+      title: "Christmas Movie Picker",
+      description: "A Python-based web application designed to randomly select a holiday movie to watch. Built to solve decision fatigue during the festive season.",
+      tags: ["Python", "Web Development", "App"],
+      link: "https://github.com/HSweazey/ChristmasMovie"
+    },
+    {
+      title: "Penny's Game Simulation",
+      description: "A statistical simulation of Penny's Game implemented in Python. Features performance testing of different scoring approaches and probability visualization.",
+      tags: ["Python", "Statistics", "Simulation"],
+      link: "https://github.com/HSweazey/Roach-Sweazey_Penneys_Game"
+    },
+    {
+      title: "NYC Taxi Data Analysis",
+      description: "Comprehensive data cleaning and analysis of NYC taxi trip records. Includes factor conversion, outlier removal, and visualization of drop-off patterns.",
+      tags: ["R", "Data Cleaning", "Visualization"],
+      link: "https://github.com/HSweazey/NYC-Health-DB"
+    }
+  ];
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <main className="min-h-screen bg-lightBlue-50">
+      {/* Hero Section */}
+      <section className="bg-navy-900 text-white py-20 px-8">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-5xl font-bold mb-4">
+            Hannah Sweazey
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <h2 className="text-2xl text-lightBlue-100 font-light mb-6">
+            Data Science Researcher | Cyber Security Enthusiast
+          </h2>
+          <p className="text-lg max-w-2xl text-gray-300 leading-relaxed">
+            I bridge the gap between complex data and actionable security insights. 
+            Currently focused on machine learning applications in Android security 
+            and building automated tools for data analysis.
           </p>
+          
+          <div className="mt-8 flex gap-4">
+            <a href="https://github.com/HSweazey" className="bg-action hover:bg-blue-600 text-white font-bold py-2 px-6 rounded transition-colors">
+              GitHub
+            </a>
+            <a href="/files/Sweazey_Resume.pdf" className="border border-white hover:bg-white hover:text-navy-900 text-white font-bold py-2 px-6 rounded transition-colors">
+              Resume
+            </a>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+      </section>
+
+      {/* Projects Grid */}
+      <section className="max-w-6xl mx-auto px-8 py-16">
+        <h2 className="text-3xl font-bold text-navy-900 mb-8 border-b-4 border-action inline-block pb-2">
+          Selected Projects
+        </h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {projects.map((project, index) => (
+            <ProjectCard 
+              key={index}
+              title={project.title}
+              description={project.description}
+              tags={project.tags}
+              link={project.link}
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          ))}
         </div>
-      </main>
-    </div>
+      </section>
+      
+      {/* Footer */}
+      <footer className="bg-navy-900 text-center py-8 text-gray-400">
+        <p>&copy; {new Date().getFullYear()} Hannah Sweazey. Built with Next.js & Tailwind.</p>
+      </footer>
+    </main>
   );
 }
