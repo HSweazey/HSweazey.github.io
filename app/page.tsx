@@ -1,14 +1,28 @@
 import ProjectCard from '../components/ProjectCard';
 
 export default function Home() {
-  // This is where you curate your projects. 
-  // You can easily add/remove items from this list later.
   const projects = [
+    {
+      title: "Tableau Dashboard",
+      description: "Multi-page analytics dashboard allowing users to explore data depth. Features include parameter controls, dynamic filtering, and KPI tracking.",
+      tags: ["Tableau", "BI", "Data Visualization"],
+      link: "https://github.com/HSweazey", // Placeholder if no repo
+      demoLink: "https://public.tableau.com/views/DATA303ChesapeakeWaterQualityDashboard/Overview?:language=en-US&:sid=&showOnboarding=true&:display_count=n&:origin=viz_share_link", // Add your Tableau Public Link here
+      images: ["tableau_main.png", "tableau_page2.png", "tableau_page3.png"] 
+    },
+    {
+      title: "Flask Analytics App",
+      description: "A live web application deployed on PythonAnywhere. Visualizes real-time data using Python, Flask, and Plotly.",
+      tags: ["Flask", "Python", "Web Dev"],
+      link: "https://github.com/HSweazey", // Placeholder
+      demoLink: "https://data303hannahs.pythonanywhere.com/", // Add your PythonAnywhere link here
+      images: ["flask_preview.png"] 
+    },
     {
       title: "Android Malware Classification",
       description: "A machine learning pipeline utilizing MobSF static analysis reports to classify Android APKs as malicious or benign. Involves feature extraction from JSON reports and vectorization.",
       tags: ["Python", "Machine Learning", "Cyber Security", "MobSF"],
-      link: "https://github.com/HSweazey/CCI-Lab-Group-2-GitHub" // Update this later
+      link: "https://github.com/HSweazey/CCI-Lab-Group-2-GitHub"
     },
     {
       title: "Atmospheric Spotify Playlist Generator",
@@ -78,6 +92,9 @@ export default function Home() {
               description={project.description}
               tags={project.tags}
               link={project.link}
+              // These two lines below were missing in your previous version!
+              demoLink={project.demoLink}
+              images={project.images}
             />
           ))}
         </div>
