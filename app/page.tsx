@@ -57,7 +57,7 @@ export default function Home() {
             <a href="https://github.com/HSweazey" className="bg-action hover:bg-blue-600 text-white font-bold py-2 px-6 rounded transition-colors">
               GitHub
             </a>
-            <a href="/files/Sweazey_Resume.pdf" className="border border-white hover:bg-white hover:text-navy-900 text-white font-bold py-2 px-6 rounded transition-colors">
+            <a href="/public/files/Sweazey_Resume.pdf" className="border border-white hover:bg-white hover:text-navy-900 text-white font-bold py-2 px-6 rounded transition-colors">
               Resume
             </a>
           </div>
