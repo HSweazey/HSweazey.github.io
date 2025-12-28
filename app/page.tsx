@@ -14,7 +14,7 @@ export default function Home() {
       title: "Flask Analytics App",
       description: "A live web application deployed on PythonAnywhere. Visualizes real-time data using Python, Flask, and Plotly.",
       tags: ["Flask", "Python", "Web Dev"],
-      link: "https://github.com/HSweazey", // Placeholder
+      link: "https://github.com/HSweazey/Philippines_Flask_Dashboard", // Placeholder
       demoLink: "https://data303hannahs.pythonanywhere.com/", // Add your PythonAnywhere link here
       images: ["flask_preview.png"] 
     },
