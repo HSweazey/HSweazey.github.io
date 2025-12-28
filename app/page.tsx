@@ -22,7 +22,7 @@ export default function Home() {
       title: "Android Malware Classification",
       description: "A machine learning pipeline utilizing MobSF static analysis reports to classify Android APKs as malicious or benign. Involves feature extraction from JSON reports and vectorization.",
       tags: ["Python", "Machine Learning", "Cyber Security", "MobSF"],
-      link: "https://github.com/HSweazey/CCI-Lab-Group-2-GitHub"
+      link: "https://github.com/HSweazey"
     },
     {
       title: "Atmospheric Spotify Playlist Generator",
