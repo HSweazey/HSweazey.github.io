@@ -6,7 +6,6 @@ export default function Home() {
       title: "Tableau Dashboard",
       description: "Multi-page analytics dashboard allowing users to explore data depth. Features include parameter controls, dynamic filtering, and KPI tracking.",
       tags: ["Tableau", "BI", "Data Visualization"],
-      link: "https://github.com/HSweazey", // Placeholder if no repo
       demoLink: "https://public.tableau.com/views/DATA303ChesapeakeWaterQualityDashboard/Overview?:language=en-US&:sid=&showOnboarding=true&:display_count=n&:origin=viz_share_link", // Add your Tableau Public Link here
       images: ["tableau_main.png", "tableau_page2.png", "tableau_page3.png"] 
     },
@@ -14,15 +13,14 @@ export default function Home() {
       title: "Flask Analytics App",
       description: "A live web application deployed on PythonAnywhere. Visualizes real-time data using Python, Flask, and Plotly.",
       tags: ["Flask", "Python", "Web Dev"],
-      link: "https://github.com/HSweazey/Philippines_Flask_Dashboard", // Placeholder
-      demoLink: "https://data303hannahs.pythonanywhere.com/", // Add your PythonAnywhere link here
+      link: "https://github.com/HSweazey/Philippines_Flask_Dashboard",
+      demoLink: "https://data303hannahs.pythonanywhere.com/",
       images: ["flask_preview.png"] 
     },
     {
       title: "Android Malware Classification",
       description: "A machine learning pipeline utilizing MobSF static analysis reports to classify Android APKs as malicious or benign. Involves feature extraction from JSON reports and vectorization.",
-      tags: ["Python", "Machine Learning", "Cyber Security", "MobSF"],
-      link: "https://github.com/HSweazey"
+      tags: ["Python", "Machine Learning", "Cyber Security", "MobSF"]
     },
     {
       title: "Atmospheric Spotify Playlist Generator",
@@ -34,20 +32,27 @@ export default function Home() {
       title: "Christmas Movie Picker",
       description: "A Python-based web application designed to randomly select a holiday movie to watch. Built to solve decision fatigue during the festive season.",
       tags: ["Python", "Web Development", "App"],
-      link: "https://github.com/HSweazey/ChristmasMovie"
+      link: "https://github.com/HSweazey/ChristmasMovie",
+      demoLink: "christmasmovie-whb7htwefy9tbfma6vcnh4.streamlit.app"
     },
     {
-      title: "Penny's Game Simulation",
+      title: "Penney's Game Simulation",
       description: "A statistical simulation of Penny's Game implemented in Python. Features performance testing of different scoring approaches and probability visualization.",
       tags: ["Python", "Statistics", "Simulation"],
-      link: "https://github.com/HSweazey/Roach-Sweazey_Penneys_Game"
+      link: "https://github.com/HSweazey/Roach-Sweazey_Penneys_Game",
+      images: ["penneys_cards.png", "penneys_tricks.png"]
     },
     {
       title: "NYC Taxi Data Analysis",
       description: "Comprehensive data cleaning and analysis of NYC taxi trip records. Includes factor conversion, outlier removal, and visualization of drop-off patterns.",
-      tags: ["R", "Data Cleaning", "Visualization"],
+      tags: ["R", "Data Cleaning", "Visualization"]
+    },
+    {
+      title: "NYC Restaurant Health Inspection Database",
+      description: "Practice project involving data cleaning and analysis of NYC restaurant health inspection records.",
+      tags: ["Python", "SQLite", "Data Cleaning"],
       link: "https://github.com/HSweazey/NYC-Health-DB"
-    }
+    },
   ];
 
   return (
