@@ -43,16 +43,11 @@ export default function Home() {
       images: ["penneys_cards.png", "penneys_tricks.png"]
     },
     {
-      title: "NYC Taxi Data Analysis",
-      description: "Comprehensive data cleaning and analysis of NYC taxi trip records. Includes factor conversion, outlier removal, and visualization of drop-off patterns.",
-      tags: ["R", "Data Cleaning", "Visualization"]
-    },
-    {
       title: "NYC Restaurant Health Inspection Database",
       description: "Practice project involving data cleaning and analysis of NYC restaurant health inspection records.",
       tags: ["Python", "SQLite", "Data Cleaning"],
       link: "https://github.com/HSweazey/NYC-Health-DB"
-    },
+    }
   ];
 
   return (
@@ -64,7 +59,7 @@ export default function Home() {
             Hannah Sweazey
           </h1>
           <h2 className="text-2xl text-lightBlue-100 font-light mb-6">
-            Data Science Researcher | Cyber Security Enthusiast
+            Senior Data Science Student | Computer Science Concentration
           </h2>
           <p className="text-lg max-w-2xl text-gray-300 leading-relaxed">
             I bridge the gap between complex data and actionable security insights. 
