@@ -3,15 +3,15 @@ import ProjectCard from '../components/ProjectCard';
 export default function Home() {
   const projects = [
     {
-      title: "Tableau Dashboard",
-      description: "Multi-page analytics dashboard allowing users to explore data depth. Features include parameter controls, dynamic filtering, and KPI tracking.",
-      tags: ["Tableau", "BI", "Data Visualization"],
+      title: "Chesapeake Bay Tableau Dashboard",
+      description: "Multi-page analytics dashboard allowing users to explore water quality statistics from Chesapeake Bay monitoring sites. Features include parameter controls, dynamic filtering, and KPI tracking.",
+      tags: ["Tableau", "Data Visualization"],
       demoLink: "https://public.tableau.com/views/DATA303ChesapeakeWaterQualityDashboard/Overview?:language=en-US&:sid=&showOnboarding=true&:display_count=n&:origin=viz_share_link", // Add your Tableau Public Link here
       images: ["tableau_main.png", "tableau_page2.png", "tableau_page3.png"] 
     },
     {
-      title: "Flask Analytics App",
-      description: "A live web application deployed on PythonAnywhere. Visualizes real-time data using Python, Flask, and Plotly.",
+      title: "Schools in the Philippines Flask Analytics App",
+      description: "A live web application deployed on PythonAnywhere. Visualizes school data using Python, Flask, and Plotly.",
       tags: ["Flask", "Python", "Web Dev"],
       link: "https://github.com/HSweazey/Philippines_Flask_Dashboard",
       demoLink: "https://data303hannahs.pythonanywhere.com/",
@@ -20,31 +20,31 @@ export default function Home() {
     {
       title: "Android Malware Classification",
       description: "A machine learning pipeline utilizing MobSF static analysis reports to classify Android APKs as malicious or benign. Involves feature extraction from JSON reports and vectorization.",
-      tags: ["Python", "Machine Learning", "Cyber Security", "MobSF"]
+      tags: ["Python", "Machine Learning", "Cyber Security", "LLMs"]
     },
     {
-      title: "Atmospheric Spotify Playlist Generator",
-      description: "An automation tool that generates music playlists tailored to specific books. Analyzes book sentiment and vibe to curate tracks that match the reading atmosphere.",
-      tags: ["Python", "Spotify API", "NLP", "Automation"],
+      title: "Reading Spotify Playlist Generator",
+      description: "An automation tool that generates music playlists tailored to specific books. Analyzes book atmosphere to curate matching tracks equal to the estimated reading time.",
+      tags: ["Python", "Spotify API", "LLMs", "Automation"],
       link: "https://github.com/HSweazey/DATA-440-Book-Playlist-Generator"
     },
     {
       title: "Christmas Movie Picker",
-      description: "A Python-based web application designed to randomly select a holiday movie to watch. Built to solve decision fatigue during the festive season.",
+      description: "A Python-based web application designed to randomly select a holiday movie to watch from a set database of movies.",
       tags: ["Python", "Web Development", "App"],
       link: "https://github.com/HSweazey/ChristmasMovie",
       demoLink: "christmasmovie-whb7htwefy9tbfma6vcnh4.streamlit.app"
     },
     {
       title: "Penney's Game Simulation",
-      description: "A statistical simulation of Penny's Game implemented in Python. Features performance testing of different scoring approaches and probability visualization.",
-      tags: ["Python", "Statistics", "Simulation"],
+      description: "A statistical simulation of Penney's Game implemented in Python. Explores different scoring approaches and probability visualization.",
+      tags: ["Python", "Statistics", "Data Visualization"],
       link: "https://github.com/HSweazey/Roach-Sweazey_Penneys_Game",
       images: ["penneys_cards.png", "penneys_tricks.png"]
     },
     {
       title: "NYC Restaurant Health Inspection Database",
-      description: "Practice project involving data cleaning and analysis of NYC restaurant health inspection records.",
+      description: "Practice project involving data cleaning, filtering, and analysis of NYC restaurant health inspection records.",
       tags: ["Python", "SQLite", "Data Cleaning"],
       link: "https://github.com/HSweazey/NYC-Health-DB"
     }
@@ -59,12 +59,10 @@ export default function Home() {
             Hannah Sweazey
           </h1>
           <h2 className="text-2xl text-lightBlue-100 font-light mb-6">
-            Senior Data Science Student | Computer Science Concentration
+            Senior Data Science Major | Computer Science Concentration
           </h2>
           <p className="text-lg max-w-2xl text-gray-300 leading-relaxed">
-            I bridge the gap between complex data and actionable security insights. 
-            Currently focused on machine learning applications in Android security 
-            and building automated tools for data analysis.
+            I am a Data Science student with a concentration in Computer Science. My research has specialized in machine learning and the use of LLMs in coding and malware identification.
           </p>
           
           <div className="mt-8 flex gap-4">
