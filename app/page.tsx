@@ -59,10 +59,10 @@ export default function Home() {
             Hannah Sweazey
           </h1>
           <h2 className="text-2xl text-lightBlue-100 font-light mb-6">
-            Senior Data Science Major | Computer Science Concentration
+            Undergraduate Data Science Senior | Computer Science Concentration
           </h2>
           <p className="text-lg max-w-2xl text-gray-300 leading-relaxed">
-            I am a Data Science student with a concentration in Computer Science. My research has specialized in machine learning and the use of LLMs in coding and malware identification.
+            I am a Data Science student with a concentration in Computer Science at the College of William and Mary. My research specializes in machine learning and the use of LLMs in coding and malware identification.
           </p>
           
           <div className="mt-8 flex gap-4">
