@@ -20,7 +20,8 @@ export default function Home() {
     {
       title: "Android Malware Classification",
       description: "A machine learning pipeline utilizing MobSF static analysis reports to classify Android APKs as malicious or benign. Involves feature extraction from JSON reports and vectorization.",
-      tags: ["Python", "Machine Learning", "Cyber Security", "LLMs"]
+      tags: ["Python", "Machine Learning", "Cyber Security", "LLMs"],
+      images: ["cci.png"]
     },
     {
       title: "Reading Spotify Playlist Generator",
@@ -79,7 +80,7 @@ export default function Home() {
       {/* Projects Grid */}
       <section className="max-w-6xl mx-auto px-8 py-16">
         <h2 className="text-3xl font-bold text-navy-900 mb-8 border-b-4 border-action inline-block pb-2">
-          Selected Projects
+          Projects Portfolio
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
