@@ -62,7 +62,7 @@ export default function Home() {
             Undergraduate Data Science Senior | Computer Science Concentration
           </h2>
           <p className="text-lg max-w-2xl text-gray-300 leading-relaxed">
-            I am a Data Science student with a concentration in Computer Science at the College of William and Mary. My research specializes in machine learning and the use of LLMs in coding and malware identification.
+            Hello! I am currently a senior at the College of William and Mary. Through my research, I specialize in the use of machine learning, LLMs for coding and malware identification, and data visualization My concentration in computer science has also exposed me to developing data structures, data containers, and overall code optimization. I have collaborated with peers on many different types of technical projects while also documenting individual ones. A mixture of both can be found below.
           </p>
           
           <div className="mt-8 flex gap-4">
