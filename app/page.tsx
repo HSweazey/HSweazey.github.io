@@ -50,6 +50,12 @@ export default function Home() {
       description: "Practice project involving data cleaning, filtering, and analysis of NYC restaurant health inspection records.",
       tags: ["Python", "SQLite", "Data Cleaning"],
       link: "https://github.com/HSweazey/NYC-Health-DB"
+    },
+    {
+      title: "Hardware Store Transaction Database",
+      description: "Practice project involving data cleaning, filtering, and analysis of sample hardware store transaction records.",
+      tags: ["Python", "SQLite", "Data Cleaning"],
+      link: "https://github.com/HSweazey/Hardware-SQLDatabase"
     }
   ];
 
