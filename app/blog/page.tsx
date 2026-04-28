@@ -115,7 +115,7 @@ export default function BlogPage() {
                   
                   {/* Read More / Read Less Toggle Indicator */}
                   <div className="mt-4 text-blue-600 font-semibold text-sm flex items-center gap-1 cursor-pointer">
-                    {isExpanded ? "Close essay" : "Read full essay"}
+                    {isExpanded ? "Close post" : "Read full post"}
                     <span className="text-lg leading-none">{isExpanded ? "↑" : "↓"}</span>
                   </div>
                 </div>
