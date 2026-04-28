@@ -46,6 +46,14 @@ export default function Home() {
       images: ["penneys_cards.png", "penneys_tricks.png"]
     },
     {
+      title: "Art Museum Dashboard",
+      description: "A statistical analysis of a local art museum, focusing on gender and racial disparities in the collection.",
+      tags: ["Python", "Statistics", "Data Visualization"],
+      link: "https://github.com/HSweazey/GSWS-Final",
+      demoLink: "https://gsws-final-sweazey.streamlit.app/",
+      images: ["guerilla1.png", "guerilla2.png", "guerilla3.png"]
+    },
+    {
       title: "NYC Restaurant Health Inspection Database",
       description: "Practice project involving data cleaning, filtering, and analysis of NYC restaurant health inspection records.",
       tags: ["Python", "SQLite", "Data Cleaning"],

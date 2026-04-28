@@ -22,6 +22,41 @@ const blogPosts = [
         </p>
       </>
     )
+  },
+  {
+    id: 2,
+    title: "Blasting Off: A New Opportunity Awaits",
+    date: "April 13, 2026",
+    summary: "I am thrilled to share that I have accepted an internship with NASA LaRC this summer!",
+    content: (
+      <>
+        <p className="mb-4">
+          I am thrilled to share that I have accepted an internship with NASA LaRC this summer, working on the Aviation Accident Analysis & Improving Pilot Training project!
+        </p>
+        <p className="mb-4">
+          Words cannot express how excited I am about this unique opportunity to learn and gain hands-on experience. Can't wait to see what's ahead!
+        </p>
+      </>
+    )
+  },
+    {
+    id: 3,
+    title: "Cybersecurity Presentation with Google",
+    date: "April 27, 2026",
+    summary: "Last week, I had the privilege of presenting my research to a representative from Google.",
+    content: (
+      <>
+        <p className="mb-4">
+          Last week, I had the privilege of presenting my research to a representative from Google.
+        </p>
+        <p className="mb-4">
+          Over the past year, I have been evaluating the use of LLMs in the malware classification pipeline with the Commonwealth Cyber Initiative (CCI). This was a great opportunity to get some constructive feedback and learn from an expert in the field.
+        </p>
+        <p className="mb-4">
+          I am excited to apply these new suggestions to our experimental design and continue to develop our approach! I'm also grateful to my advisor, Yanhai Xiong, and my collaborator, Ella Roach, for their continued guidance and support.
+        </p>
+      </>
+    )
   }
 ];
 
