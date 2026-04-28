@@ -4,21 +4,21 @@ import { useState } from "react";
 
 // This is where you will write your blog posts!
 const blogPosts = [
-  {
-    id: 1,
-    title: "Personifying LLMs: An Analysis of Reliability",
-    date: "March 06, 2026",
-    summary: "Personifying LLMs is a strong tool currently being explored by many in the field, but is it perhaps too strong of a tool? In this post, I reflect on my experiences with personification and its reflect on LLM output.",
+    {
+    id: 3,
+    title: "Cybersecurity Presentation with Google",
+    date: "April 27, 2026",
+    summary: "Last week, I had the privilege of presenting my research to a representative from Google.",
     content: (
       <>
         <p className="mb-4">
-          The realization that LLMs (Large Language Models) perform completely differently given different personas has several real-world implications. For one, it supports the claim that LLMs do not give a correct answer; they give the right answers in the context of the user’s prompt. Its behavior and output are purely based on what it believes the user is looking for, and prioritizing that over providing a logically sound answer brings up a question of reliability.
+          Last week, I had the privilege of presenting my research to a representative from Google.
         </p>
         <p className="mb-4">
-          How can one personify an LLM so that it prioritizes logical and accurate answers over user satisfaction? Is that even possible, or will the goal of fulfilling the user’s request always usurp that integrity? At this stage in LLM development, evidence points to the latter. Say a company uses an AI model to process resumes. 5 different models can give 5 different evaluations for the exact same resume, all based on the prompt and persona given.
+          Over the past year, I have been evaluating the use of LLMs in the malware classification pipeline with the Commonwealth Cyber Initiative (CCI). This was a great opportunity to get some constructive feedback and learn from an expert in the field.
         </p>
-        <p>
-          Can we even consider LLMs to be reliable for evaluation tasks, or is it too subjective and variable to be efficiently used in these problems? There’s also the critique of the lack of reproducibility. The differences in output between slightly different prompts and personas speaks to the instability of LLM output and caution users to be cognizant of these discrepancies.
+        <p className="mb-4">
+          I am excited to apply these new suggestions to our experimental design and continue to develop our approach! I'm also grateful to my advisor, Yanhai Xiong, and my collaborator, Ella Roach, for their continued guidance and support.
         </p>
       </>
     )
@@ -39,21 +39,21 @@ const blogPosts = [
       </>
     )
   },
-    {
-    id: 3,
-    title: "Cybersecurity Presentation with Google",
-    date: "April 27, 2026",
-    summary: "Last week, I had the privilege of presenting my research to a representative from Google.",
+  {
+    id: 1,
+    title: "Personifying LLMs: An Analysis of Reliability",
+    date: "March 06, 2026",
+    summary: "Personifying LLMs is a strong tool currently being explored by many in the field, but is it perhaps too strong of a tool? In this post, I reflect on my experiences with personification and its reflect on LLM output.",
     content: (
       <>
         <p className="mb-4">
-          Last week, I had the privilege of presenting my research to a representative from Google.
+          The realization that LLMs (Large Language Models) perform completely differently given different personas has several real-world implications. For one, it supports the claim that LLMs do not give a correct answer; they give the right answers in the context of the user’s prompt. Its behavior and output are purely based on what it believes the user is looking for, and prioritizing that over providing a logically sound answer brings up a question of reliability.
         </p>
         <p className="mb-4">
-          Over the past year, I have been evaluating the use of LLMs in the malware classification pipeline with the Commonwealth Cyber Initiative (CCI). This was a great opportunity to get some constructive feedback and learn from an expert in the field.
+          How can one personify an LLM so that it prioritizes logical and accurate answers over user satisfaction? Is that even possible, or will the goal of fulfilling the user’s request always usurp that integrity? At this stage in LLM development, evidence points to the latter. Say a company uses an AI model to process resumes. 5 different models can give 5 different evaluations for the exact same resume, all based on the prompt and persona given.
         </p>
-        <p className="mb-4">
-          I am excited to apply these new suggestions to our experimental design and continue to develop our approach! I'm also grateful to my advisor, Yanhai Xiong, and my collaborator, Ella Roach, for their continued guidance and support.
+        <p>
+          Can we even consider LLMs to be reliable for evaluation tasks, or is it too subjective and variable to be efficiently used in these problems? There’s also the critique of the lack of reproducibility. The differences in output between slightly different prompts and personas speaks to the instability of LLM output and caution users to be cognizant of these discrepancies.
         </p>
       </>
     )
